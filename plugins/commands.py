@@ -98,7 +98,8 @@ async def start(client, message):
             await message.reply_text("Make sure Bot is admin in Forcesub channel")
             return
         try:
-            btn = [[InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)]]
+            btn = [[InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ1 ᴄʜᴀɴɴᴇʟ", url=https://t.me/Indian_MV)]]
+            btn = [[InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ2 ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)]]
             if message.command[1] != "subscribe":
                 if REQUEST_TO_JOIN_MODE == True:
                     if TRY_AGAIN_BTN == True:
@@ -1404,3 +1405,4 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
