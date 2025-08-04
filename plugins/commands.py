@@ -99,7 +99,7 @@ async def start(client, message):
             return
         try:
            # btn = [[InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)]]
-            btn = [[InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ1 ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
+            btn = [[InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ1 ᴄʜᴀɴɴᴇʟ', url="https://t.me/Indian_MV"),
                     InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ2 ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)]]
             if message.command[1] != "subscribe":
                 if REQUEST_TO_JOIN_MODE == True:
@@ -1406,5 +1406,6 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
 
 
